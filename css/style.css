@@ -1,0 +1,96 @@
+body {
+    font-family: "Montserrat Alternates", sans-serif;
+    text-align: center;
+    background-image: url('/images/Piggy\ Pink.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    width: 550px;
+    height: 550px;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 320px;
+        height: 360px;
+    }
+}
+
+.heart-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.content {
+    display: none;
+}
+
+.content img {
+    max-width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+    /* Вписывает картинку без обрезки */
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .content img {
+        max-width: 100%;
+        max-height: 200px;
+    }
+}
+
+
+.active {
+    display: block;
+}
+
+.navigation {
+    margin-top: 20px;
+}
+
+.nav-button {
+    background: #ff6b81;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+}
+
+#content-11 {
+    text-align: left;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    #content-11 {
+        text-align: left;
+        font-size: 14px;
+    }
+}
